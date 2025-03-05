@@ -4,6 +4,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width-device-width">
     <title>into CSS</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
     <style>
         body {
             background-color: rgb(167, 215, 231);
@@ -13,32 +14,60 @@
         h1 {
             color: white;
             text-align: center;
+            
         }
+        p { 
+            font-family: Verdana;
+            font-size: 20px;
+        }
+        nav {
+            background-color: gray;
+            padding: 20px;
+            margin: 0px;
+            
+        }
+        nav ul {
+            background-color: gray;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+
+        }
+        nav li {
+            float: left;
+        }
+        nav {
+
+        }
+    
     </style>
 </head>
 
-    <body>
-    <h1 style="text-align: center; font-size: 40px;">INLINE CSS</h1>
-    <style>
-        body {
-            background-color: rgb(167, 215, 231);
-            font-family: Cambria, Cochin, 
-            Georgia, Times, 'Times New Roman', serif;
-        }
-        h1 {
-            color: white;
-            text-align: center;
-        }
-    </style>
-
-    <!-- give paragraph color of ant whtie with a font size of 16px-->
-    <p style="color: antiquewhite; font-size: 16px;"> HELLO WORLD</p>
-    <p style="text-align: center;"> HELLO WORLD 2 </p>
-    <p style="text-decoration: underline;"> HELLO WORLD 3</p>
-    <p style="border: 2px black solid;font-size: 16px; color: blueviolet;"> hELLO worlding </p>
+<body>
+    <nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="internal-css.html">Internal css</a></li>
+        <li><a href="index2.html">extra</a></li>
+    </ul>
+    </nav>
+    
+    <header>
+    <h1>INTERNAL CSS page 2 </h1>
+    </header>
+    
+    <p> HELLO WORLD</p>
+    <p> HELLO WORLD 2 </p>
+    <p> HELLO WORLD 3</p>
+    <p> hELLO worlding </p>
 <br>
-<P style="font-size: 24px;">this pages shows the effects of adding inline css to HTML tags</P>
-
+<P style="font-size: 24px;">this pages shows the effects of adding inline css to HTML tags</P>s
 
 
 </body>
