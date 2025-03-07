@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: lightgray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar :hover {
+    background-color: lightgray;
+
+}
+.navbar li {
+    float: left;
+}
