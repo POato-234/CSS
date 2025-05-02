@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width">
+        <title>text practice</title>
+        <style>
+            *{
+                color: #291541;
+                font-size: 20px;
+                /*background-color: ghostwhite;*/
+            }
+            body{
+                background-image: url("img/premium_photo-1672944876342-4090164e1c04.avif");
+                background-size: 100%, 100%;
+                background-repeat: auto;
+            }
+            h1{
+                font-size: 48px;
+                text-align: center;
+            }
+            section p{
+                font-weight: bold;
+                background-color: #5ac88b;
+            }
+            section{
+                background-color: #5ac88b;
+            }
+            .navbar ul {
+            list-style-type: none;
+            background-color: lightgray;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+            }
+            .navbar a {
+            color: rgb(187, 136, 136);
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+            }
+            .navbar a:hover {
+            background-color: rgb(91, 88, 88);
+            color: lightgray;
+            }
+            .navbar li {
+            float: left;
+                background-color: lightgray;
+                transition: transform 2s ease-in-out;
+            }   
+            a:link{
+                color: blue;
+            }
+            nav a:focus{
+                color: blue;
+            }
+            /* nav a:visited {
+                color: rgb(255, 0, 0);
+            } */
+            div{
+                margin: 10px 5px;
+                padding: 10px 5px 7px 3px;
+                /* border: 5px solid black;
+                border-top: dotted 5px red;
+                border-right: double 5px blue;
+                border-bottom: dashed 5px yellow;
+                border-left: groove 5px cyan; */
+                border-width: 10px 15px 5px 10px;
+		        border-color: black green orange;
+		        border-style: ridge;
+                font-weight: bold;
+                font-style: italic;
+                color: #5ac88b;
+            }
+            li:hover{
+                transform: translateY(-20px) scale(1.1);
+            }
+            main{
+                animation: main-ani 4s;
+                animation-delay: 1.2s;
+            }
+            @keyframes main-ani{
+                from{opacity: 0;}
+                to{opacity: 1;}
+            }
+            .trial{
+                padding: 42%;
+                margin: 20%;
+                border: 2px solid black;
+            }
+            .overflow-content{
+                overflow: wrap;
+            }
+            #content-shadow{
+                text-shadow: #e90f22 10px 10px;
+            }
+            #new-shadow{
+                text-shadow: 0px 10px 10px gold;
+            }
+        </style>
+    </head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="text.html">HOME</a></li>
+                <li><a href="index.html">gradient</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="content-shadow">appropriat heading</h1>
+        <section>
+            <p id="new-shadow">HELLO WORLD</p>
+            <p>HELLO WORLD</p>
+            <p>HELLO WORLD</p>
+            <p>HELLO WORLD</p>
+            <p>HELLO WORLD</p>
+        </section>
+        <div>
+            <p class="trial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum ac orci at ullamcorper. Vestibulum blandit nunc et</p>
+            <p>vulputate vehicula. Etiam malesuada molestie orci in tristique. Vestibulum sed risus id nisl tempor sodales. In ut fringilla sem. Suspendisse</p>
+            <p>sodales commodo leo. Nullam aliquam pretium neque eu molestie. Integer ultricies nulla quam, aliquam pulvinar leo convallis non.</p>
+            <p >Quisque felis libero, tincidunt non auctor eu, gravida ac neque. Aenean rutrum nisi quis leo accumsan lobortis. Phasellus eget convallis</p>
+            <p>felis. Nullam dapibus, leo at facilisis fermentum, mauris lacus molestie enim, ut cursus massa risus sed tortor. In ut finibus velit, at suscipit</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>overflow Content</h1>
+        <div class="overflow-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+        </div>
+    </main>
+</body>
+</html>

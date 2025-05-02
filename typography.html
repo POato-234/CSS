@@ -2,16 +2,17 @@
 <html lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width">
-    <title>internal css</title>
+    <title>typography</title>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <style>
         body {
             margin: 0px;
+            line-height: 140%;
         }
         h1 {
             color: white;
             text-align: center;
-            
+            font-family: 'Times New Roman', Times, serif;
         }
         p { 
             font-family: Verdana;
@@ -21,9 +22,11 @@
         {
             font-family: Georgia, Cambria, serif;
             font-weight: bold;
+            font-size: 12px;
         }
         .center {
             border: 2px solid black;
+            color: darkblue;
         }
         .navbar ul {
         list-style-type: none;
@@ -31,20 +34,30 @@
         padding: 0px;
         margin: 0px;
         overflow: hidden;
-        }
-        .navbar a {
+    }
+    .navbar a {
         color: white;
         text-decoration: none;
         padding: 15px;
         display: block;
         text-align: center;
-        }
-        .navbar :hover {
+    }
+    .navbar :hover {
         background-color: lightgray;
-        }   
-        .navbar li {
+    }   
+    .navbar li {
         float: left;
-        }
+    }
+    #new{
+        text-decoration: dashed;
+    }
+    #idk{
+        font-style: italic;
+    }
+    #whatgoodi{
+        text-transform: capitalize;
+    }
+
     </style>
 </head>
 
@@ -61,14 +74,20 @@
     <header>
     <h1>INTERNAL CSS</h1>
     </header>
-    <div style="background-color: ghostwhite; height: 180px; width: auto;">
+    <div>
     <p class="center"> Basketball is the best sport in da world</p>
     <p class="center"> kyries injured 😢 </p>
-    <p> HELLO WORLD 3</p>
-    <p> hELLO worlding </p>
+    <p id="whatgoodi"> HELLO WORLD 3</p>
+    <p style="letter-spacing: 3px;"> hELLO worlding </p>
     </div>
 <br>
-    <P style="font-size: 24px;">this pages shows the effects of adding inline css to HTML tags</P>
+    <P>this pages shows the effects of adding inline css to HTML tags</P>
+    <p id="new">impusm limpusm whatare tou doing to fod tn wah tashdwojhfo3uhdfjheijodkhfeubhfdljhceowihfdlcqpidj ikhfoweilfhixjfywofhdifu23 adofiwhfqel</p>
+    <p id="idk">fljdhfkdjfhqoihfdj fdfkjdhfuewbf djfkjfbequfdf efjdfwen fdljncf wefjdbf ewfd fefew fwekjf wofihqwdnkq oiqf weowefnweoifh wofjwehfjdfhwefkewfw</p>
+    <p style="word-spacing: 20px;">dfjhdjfndsljfbdcobdf fjdhfikdj fweof efkjdbfefjdbf e fwodfbwekfn, fowdfbd,nf dkfdbfkd fdpifhd,fd fdubfdjf dkf ewoifwfknwe cojewkem flidhdjlfweoif wdwefbwekj</p>
+    <p style="line-height: 1.6%;">wondvoiwefwe  ldfewofwfldknf fdlkf dfdfeqf dgferher df j54fdr gdfgergdfg34 dfg rgdf 4gfd grjtg dfg432 ew h53rgdfgew fdwr fsdfewf fhergwr fwfd erg gd gerg fdgerge
+        dgw4g dfgw fhdfg f dfgdf gdf gwg dferg dfgerggdfgdfgdf dfg dfgdf gdfg dfg ggefg hfgytjy jg jhj gg hfgh fgh rtjygh ghjytj jghjgyjy j ghj yj g jy jgjyh jg jgy jyj y g
+    </p>
     <main>
         <p id="styled">this paragraph show the effects of giving an element an id and 
             <span style="background-color: blue; font-style: italic;">styling</span> that id  </p>

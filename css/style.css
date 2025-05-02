@@ -1,6 +1,7 @@
 body{
     background-color: lightblue;
     margin: 0px;
+    margin: 5% 10% 5% 10%;
 }
 h1 {
     color: navy;
@@ -22,8 +23,10 @@ h1 {
 }
 .navbar :hover {
     background-color: lightgray;
-
 }
 .navbar li {
     float: left;
+}
+.a { 
+    font-family: 'Times New Roman', Times, serif;
 }
